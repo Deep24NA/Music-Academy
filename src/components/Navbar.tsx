@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
-import { cn } from "@/utils/cn";
+import { cn } from "@/lib/utils/cn";
 import Link from "next/link";
 import { s } from "motion/react-client";
 
