@@ -9,16 +9,26 @@ export interface Course {
     image?: string;
 }
 
+export interface musicTestimonial {
+    quote: string;
+    name: string;
+    title: string;
+}
 
-/*
- {
-        "id": 1,
-        "title": "Guitar Fundamentals",
-        "slug": "guitar-fundamentals",
-        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
-        "price": 99.99,
-        "instructor": "John Doe",
-        "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
-      },
- */
+export interface Webinar {
+    title : string;
+    description: string;
+    slug: string;
+    isFeatured: boolean;
+}
+export interface MusicSchoolContent {
+    title: string;
+    description: string;
+}
+
+export interface Instructor {
+    id: number;
+    name: string;
+    image: string;
+    designation: "string"
+}
